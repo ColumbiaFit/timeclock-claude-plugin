@@ -3,11 +3,10 @@
   "hooks": {
     "SessionStart": [
       {
-        "matcher": "*",
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-init.sh\"",
+            "command": "python \"${CLAUDE_PLUGIN_ROOT}/hooks/session-init.py\"",
             "timeout": 10
           }
         ]
@@ -19,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/plan-approved.sh\"",
+            "command": "python \"${CLAUDE_PLUGIN_ROOT}/hooks/plan-approved.py\"",
             "timeout": 10
           }
         ]
@@ -29,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/task-completed.sh\"",
+            "command": "python \"${CLAUDE_PLUGIN_ROOT}/hooks/task-completed.py\"",
             "timeout": 10
           }
         ]
