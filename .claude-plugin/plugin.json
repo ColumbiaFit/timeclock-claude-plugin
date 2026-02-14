@@ -1,0 +1,9 @@
+{
+  "name": "timeclock-integration",
+  "version": "1.0.0",
+  "description": "Automatic TimeClock time tracking integration for Claude Code. Creates tasks from plans, clocks in/out with sessions, and keeps the time clock in sync with your current work.",
+  "author": {
+    "name": "TimeClock",
+    "email": "noreply@timeclock.local"
+  }
+}
