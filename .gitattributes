@@ -1,0 +1,2 @@
+# Force LF line endings for shell scripts (bash breaks with CRLF)
+*.sh text eol=lf
